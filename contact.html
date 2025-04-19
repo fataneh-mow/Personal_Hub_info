@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon_32x32_transparent.png" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style_contact.css" />
+  </head>
+  <body>
+    <h1>☎ Contact me</h1>
+    <div class="search_bar">
+      <form class="first_form">
+        <input type="text" placeholder="🔎 Search here" class="search.input" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <nav>
+      <a href="index.html" target="_self">Home</a>
+      <a href="about_me.html" target="_self">About me</a>
+      <a href="contact.html" target="_self">Contact</a>
+      <a href="gallery.html" target="_self">Gallery</a>
+    </nav>
+
+    <div class="form">
+      <span class="inner_form">
+        <form action="index.html" method="post" class="contact-form">
+          <label for="fname" id="fname" placeholder="Enter your first name"
+            >First Name</label
+          ><br />
+          <input
+            type="text"
+            id="fname"
+            placeholder="Enter your first name"
+            required
+          /><br /><br />
+
+          <label for="Lname" id="Lname">Last name</label><br />
+          <input
+            type="text"
+            id="Lname"
+            placeholder="Enter your last name"
+            required
+          /><br />
+          <br />
+
+          <label for="email" id="email"
+            >Email<br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            /> </label
+          ><br />
+
+          <label for="massage" id="massage"
+            ><br>Massage<br />
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              cols="30"
+              placeholder="Enter your message"
+            ></textarea></label
+          ><br />
+
+          <p>Gender</p>
+          <input type="radio" id="male" name="gender" value="male" required />
+
+          <label for="male">Male</label><br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br /><br />
+
+          <p>Which options do you like?</p>
+          <input
+            type="checkbox"
+            id="chess"
+            name="subjects"
+            value="Chess"
+            
+          />
+          <label for="chess" id="">♟ Chess</label><br />
+          <input
+            type="checkbox"
+            id="exercise"
+            name="subjects"
+            value="exercise"
+            
+          />
+          <label for="exercise" id="exercise">🚴 Exercise</label><br />
+          <input
+            type="checkbox"
+            id="reading"
+            name="subjects"
+            value="reading"
+            
+          />
+          <label for="reading" id="reading">📚 Reading book</label><br />
+
+          <input
+            type="checkbox"
+            name="subject"
+            value="painting"
+            id="painting"
+          />
+          <label for="painting" id="painting">🎨 Painting</label><br />
+
+          <input type="checkbox" id="coding" name="subject" value="coding" />
+          <label for="coding">🧑‍💻 Coding</label>
+          <p>
+            Contanct me directly
+            <br /><a
+              href="mailto:fataneh.mow@gamil.com"
+              target="_blank"
+              class="link"
+              >fataneh.mow@gmail.com</a
+            >
+          </p>
+          <br /><input type="submit" class="submit_button" />
+        </form>
+      </span>
+    </div>
+
+    <footer>
+      <p>
+        This page is coded by
+        <a href="https://x.com/fataneh_mow">Fatana Mawlawizadeh</a>
+      </p>
+    </footer>
+  </body>
+</html>

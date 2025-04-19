@@ -1,0 +1,150 @@
+body {
+  background: #fae3d9;
+  color: #4d4647;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: #4d4647;
+}
+.search_bar {
+  width: 100%;
+  max-width: 400px;
+  height: 45px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  border: 1.5px solid #ffb6b9;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: border 0.3s, box-shadow 0.3s;
+}
+.search-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  color: #2a2929;
+}
+form {
+  background: rgba(250, 227, 217, 0.4);
+  width: 450px;
+  height: 35px;
+  display: flex;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+form input {
+  flex: 1;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgba(250, 227, 217, 0.4);
+}
+form button {
+  background: #ffb6b9;
+  padding: 10px 35px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+nav {
+  background-color: rgba(187, 222, 214, 0.7);
+  padding: 10px;
+  text-align: center;
+  display: block;
+  visibility: visible;
+  border-radius: 10px;
+  margin: 0px 200px 0px 200px;
+}
+
+nav a {
+  color: #4d8483;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  background: rgba(97, 192, 191, 0.3);
+  border-radius: 10px;
+  margin: 40px 200px auto;
+  display: block;
+  padding: 30px 50px;
+  color: #4d4647;
+  font-size: 18px;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.paragraph a {
+  color: #393636;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.paragraph a:hover {
+  text-decoration: underline;
+}
+
+.li_title {
+  margin: 28px 5px;
+}
+
+.ol-title {
+  margin: 28px 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(239, 136, 149, 0.6);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: rgba(255, 182, 185, 0.8);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 182, 185, 0.8);
+}
+
+tr:hover {
+  background-color: #fae3d9;
+}
+
+footer {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: #4d4647;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2e2b2b;
+  cursor: pointer;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
